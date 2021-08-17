@@ -45,7 +45,7 @@ paths:
         - tagPut
       summary: summaryPut
       description: descriptionPut
-      operationId: TransferAccountPOST
+      operationId: updatePUT
       consumes:
         - application/json
       produces:
