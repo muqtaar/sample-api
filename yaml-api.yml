@@ -12,7 +12,7 @@ tags:
   - name: Apisec.ai
     description: Controller
 paths:
-  /api/v1/get/{id}:
+ /v1/api/sample/get/{id}:
     get:
       tags:
         - tagGet
@@ -39,7 +39,7 @@ paths:
           description: The server can not find the requested page.
         '500':
           description: The request was not completed. The server met an unexpected condition.
-  /api/v1/update/{id}:
+  /v1/api/sample/update/{id}:
     put:
       tags:
         - tagPut
@@ -73,7 +73,7 @@ paths:
           description: The server can not find the requested page.
         '500':
           description: The request was not completed. The server met an unexpected condition.
-  /api/v1/delete/{id}:
+  /api/v1/sample/delete/{id}:
     delete:
       tags:
         - tagDelete
@@ -99,7 +99,7 @@ paths:
           description: The server can not find the requested page.
         '500':
           description: The request was not completed. The server met an unexpected condition.
-  /api/v1/create:
+  /api/v1/sample/create:
     post:
       tags:
         - Tagcreate
